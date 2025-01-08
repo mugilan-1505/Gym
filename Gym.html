@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM MEMBERSHIP FORM</title>
+    <link rel="stylesheet" href="Gym.css"> 
+</head>
+<body>
+    
+    <form class="form1">
+        
+        <fieldset>
+            <legend><b>GYM MEMBERSHIP FORM</b></legend>
+
+            <div class="main1">
+
+                <div class="d1">
+                    <h3>PERSONAL DETAILS</h3>
+                    <label>Name</label>
+                    <input type="text" name="Name" placeholder="Enter Your Name"><br><br>
+
+                    <label>Email</label>
+                    <input type="email" name="Email" placeholder="Enter Your Email"><br><br>
+
+                    <label>Phone number</label>
+                    <input type="tel" name="Phone Number" placeholder="Enter Your Phone Number"><br><br>
+
+                    <label>Age</label>
+                    <input type="number" name="Age" placeholder="Enter Your Age"><br><br>
+
+                    <div class="address">
+                        <label>Address</label><br><br>
+                        <input type="text" name="address" placeholder="Street Address"><br>
+                        <input type="text" name="address" placeholder="City">
+                        <input type="text" name="address" placeholder="State">
+                    </div>
+                </div>
+                <hr>
+                <div class="d1">
+                    <h3>CHALLENGE</h3>
+                    <div class="weight">
+                        <label>Current Weight</label>
+                        <input type="number" name="Current Weight" placeholder="Enter Your Current Weight">
+
+                        <label>Target Weight</label>
+                        <input type="number" name="Target Weight" placeholder="Enter Your Target Weight"><br><br>
+                    </div>
+
+                    <label class="height">Height</label>
+                    <input type="number" name="Height" placeholder="Enter Your Height"><br><br>
+
+                    <label>Package Type</label><br>     
+                    <div class="ptype">
+                    
+                        <input type="radio" id="Package_type_Monthly" name="Package_type" value="Monthly"> <label for="Package_type_Monthly">Monthly</label>
+                        <input type="radio" id="Package_type_Yearly" name="Package_type" value="Yearly"> <label for="Package_type_Yearly">Yearly</label>
+                    </div>
+                    </div>
+
+                <div class="se">
+                    <label>Start Date</label>
+                    <input type="date" name="Start Date" placeholder="Enter Start Date">
+
+                    <label>End Date</label>
+                    <input type="date" name="End Date" placeholder="Enter End Date">
+                </div><center>
+                <button type="submit" value="submit">Submit</button>
+            </center>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
